@@ -13,7 +13,7 @@ def create_submission_bundle(
     submission_dir: str | Path = "./submission",
     adapter_source: str | Path = "./submission/adapters/main_lora",
     output_zip: str | Path = "./submission.zip",
-    model_name: str = "gemma-4-e4b-it-qat-w4a16-ct",
+    model_name: str = "gemma-4-31b-it-qat-w4a16-ct",
 ) -> Path:
     """Prepares and validates the declarative submission folder and zips it into submission.zip."""
     base = Path(submission_dir)
@@ -148,7 +148,7 @@ def main() -> None:
     parser.add_argument("--submission-dir", type=str, default="./submission")
     parser.add_argument("--adapter-source", type=str, default="./submission/adapters/main_lora")
     parser.add_argument("--output-zip", type=str, default="./submission.zip")
-    parser.add_argument("--model", type=str, default="gemma-4-e4b-it-qat-w4a16-ct")
+    parser.add_argument("--model", type=str, default="gemma-4-31b-it-qat-w4a16-ct")
     args = parser.parse_args()
 
     create_submission_bundle(
