@@ -1,0 +1,68 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Heavy competition datasets and cache (Store on Google Drive, NOT in Git!)
+data/
+*.npz
+*.tar
+*.tar.gz
+*.zip
+
+# Submission artifacts and large model weights
+submission.zip
+checkpoints/
+adapters/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# Jupyter Notebook & Colab cache
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Weights & Biases / experiment trackers
+wandb/

@@ -1,0 +1,4 @@
+max_turns: 20
+max_tool_calls: 35
+timeout_seconds: 900
+enable_sandbox_testing: true

@@ -1,0 +1,9 @@
+name: code_analyzer
+model: gemma-4-31b-it-qat-w4a16-ct
+adapter: main_lora
+instruction: !include prompts/analyzer.md
+tools:
+  - read_file
+  - get_code_neighbors
+  - search_similar_code
+generate_content_config: !include configs/sampling.yaml
