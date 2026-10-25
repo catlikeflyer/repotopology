@@ -1,9 +1,9 @@
 # 🪐 RepoTopology: Agentic Codebase Comprehension & 3-Tier AST Context Pruning
 
-[![CI](https://github.com/USERNAME/repology/actions/workflows/ci.yml/badge.svg)](https://github.com/USERNAME/repology/actions/workflows/ci.yml)
-[![Open In Colab: Train LoRA](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/repology/blob/main/notebooks/01_train_gemma4_qlora.ipynb)
-[![Open In Colab: Benchmark](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/repology/blob/main/notebooks/02_repotopology_benchmark.ipynb)
-[![Open In Colab: Package Submission](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/repology/blob/main/notebooks/03_package_submission.ipynb)
+[![CI](https://github.com/catlikeflyer/repotopology/actions/workflows/ci.yml/badge.svg)](https://github.com/catlikeflyer/repotopology/actions/workflows/ci.yml)
+[![Open In Colab: Train LoRA](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catlikeflyer/repotopology/blob/main/notebooks/01_train_gemma4_qlora.ipynb)
+[![Open In Colab: Benchmark](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catlikeflyer/repotopology/blob/main/notebooks/02_repotopology_benchmark.ipynb)
+[![Open In Colab: Package Submission](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/catlikeflyer/repotopology/blob/main/notebooks/03_package_submission.ipynb)
 
 **RepoTopology** is an agentic code intelligence framework for **Gemma 4 (E4B / 31B)** submitted to the **Google - The Gemma 4 Developer Agent Competition**. It combines directed AST multigraph exploration with a 3-tiered dynamic context-pruning engine exposed via a local FastMCP server.
 
